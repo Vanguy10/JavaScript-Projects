@@ -32,9 +32,8 @@ function negation_Operator() {
 
 var x=5;
 x++;
-document.write(x);
+document.write(x+"<br><br>");
 
 var x=5.25;
 x--;
 document.write(x);
-
