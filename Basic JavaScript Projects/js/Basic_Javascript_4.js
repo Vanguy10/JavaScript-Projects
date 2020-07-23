@@ -8,3 +8,6 @@ function my_Dictionary() {
     };
     document.getElementById("Dictionary").innerHTML= Animal.Breed;
 }
+
+document.write(typeof "Word");
+document.write(typeof 3);

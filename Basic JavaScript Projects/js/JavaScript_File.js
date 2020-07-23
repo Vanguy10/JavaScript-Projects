@@ -9,3 +9,6 @@ function myFunction () {
     sentence += "a lot from this book!";
     document.getElementById("Concatenate").innerHTML=sentence;
 }
+
+window.alert ("Hello World");
+document.write(2+2);
