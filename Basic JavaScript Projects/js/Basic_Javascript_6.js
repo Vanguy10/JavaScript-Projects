@@ -1,10 +1,10 @@
-function Nested_Function {
+function Nested_Function() {
     document.getElementById("Nested_Function").innerHTML=Count();
     function Count() {
-        var starting_point=9;
+        var Starting_point=9;
         function Plus_one() {Starting_point += 1;}
         Plus_one ();
-        return STarting_point;
+        return Starting_point;
     }
 }
 
@@ -14,6 +14,8 @@ function Person(first, last, age, eye) {
     this.age=age;
     this.eyeColor=eye;
 }
-var myFather = new Person("John", "Doe" 50, "blue");
+function Person_Funk() {
+var myFather = new Person("John", "Doe", 50, "blue");
 document.getElementById("demo").innerHTML=
 "My father is "+myFather.age+".";
+}
