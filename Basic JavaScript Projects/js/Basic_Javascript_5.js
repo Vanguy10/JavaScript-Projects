@@ -51,3 +51,15 @@ document.write(5>2 && 10>4);
 document.write(5>10 && 10>4);
 document.write(5>10 || 10>4);
 document.write(5>10 || 10>20);
+document.write("<br>");
+
+document.write("<br>");
+document.write(Bigger=(5>1)?"Left number is bigger":"Right number is bigger");
+document.write("<br>");
+
+function Ride_Function() {
+    var Height, Can_Ride;
+    height=document.getElementById("Height").value;
+    Can_Ride=(Height < 52) ? "You are too short":"You are tall enough";
+    document.getElementById("Ride").innerHTML=Can_Ride+"To ride.";
+}
