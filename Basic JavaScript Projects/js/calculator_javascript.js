@@ -95,7 +95,7 @@ keys.addEventListener('click', (event) => {
     //the target variable is an object that represents the element that was clicked
     const {target}=event;
     //if the element thath was clicked on is not a button, exit the function
-    if(!targeted.matches('button')) {
+    if(!target.matches('button')) {
         return;
     }
 
