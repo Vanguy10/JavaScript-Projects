@@ -1,7 +1,7 @@
 //creates an object to keep track of values
-const calculator={
+const Calculator={
     //this is displays 0 on the screen
-    Display_value:'0',
+    Display_Value:'0',
     //this will hold the first operand for any expression, we set it to null for now
     First_Operand: null,
     //This checks whether or not the second operand has been input

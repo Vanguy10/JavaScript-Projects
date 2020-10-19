@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- links to "fadeout" css but it doesnt work-->
+    <link rel="stylesheet" href="./CSS/Step_359.css">
+<script src="./js/Step_359.js"></script>
+</head>
+<body>
+<!-- Viewport Width-->
+    <h1 style="font-size: 20vw;">I am tired</h1>
+
+<!-- fade out-->
+<script>
+    document.body.classname += ' fade-out';
+</script>
+
+<!-- Phone Number Field-->
+<form action="/action_page.php">
+    <label for="phone">Phone Number</label><br>
+    <br>
+    <input type="text" id="phone"><br>
+    <br>
+    <input type="Submit" value="Submit">
+</form>
+
+<!-- Popup Contact Form-->
+<div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Login</h1>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div> 
+
+  <!--keyframe rule -->
+  <style> 
+    div {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      animation: mymove 5s infinite;
+    }
+    
+    @keyframes mymove {
+      from {top: 0px;}
+      to {top: 200px;}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1>The @keyframes Rule</h1>
+    
+    <p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+    
+    <div></div>
+    
+</body>
+</html>
